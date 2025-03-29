@@ -1,7 +1,8 @@
 package main
 
-//import "fmt"
-
+import (
+	"fmt"
+)
 func Max(a []int) int {
 	if len(a) == 0 {
 		return 0
@@ -15,8 +16,8 @@ func Max(a []int) int {
 	return max
 }
 
-/*func main() {
-	a := []int{23, 123, 1, 11, 55, 93}
+func main() {
+	a := []int{23, 123, 1, 11, 55, 93, 2222}
 	max := Max(a)
 	fmt.Println(max)
-}*/
+}

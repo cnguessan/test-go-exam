@@ -6,13 +6,13 @@ import (
 	"github.com/01-edu/z01"
 )
 
-func main () {
+func main() {
 	numbers := os.Args[1:]
-	var lenght int
+	var length int
 	for i := 0; i < len(numbers); i++ {
-		lenght += 1
+		length += 1
 	}
-	z01.PrintRune(rune(lenght + 48))
+	z01.PrintRune(rune(length + 48))
 	z01.PrintRune(10)
 }
 /*package main
